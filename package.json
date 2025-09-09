@@ -1,0 +1,18 @@
+{
+  "name": "site-pets-cypress",
+  "version": "1.0.0",
+  "description": "Site estático com formulário de cadastro de pet + Cypress E2E (didático)",
+  "scripts": {
+    "start": "http-server -p 8080 -c-1 .",
+    "test": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^13.13.0",
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
